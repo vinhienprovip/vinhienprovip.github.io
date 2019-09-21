@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    position: relative;
+}
+.red{
+    position: absolute;
+    display: flex;
+    height: 400px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    width: calc((100% - 30px) / 3);
+}
+.green{
+    position: absolute;
+    display: flex;
+    height: 400px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    width: calc((100% - 30px) / 3);
+    left: calc((100% -30px) / 3 + 5px);
+}
+.blue{
+    position: absolute;
+    display: flex;
+    height: 400px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    width: calc((100% - 30px) / 3);
+    right: 0;
+}
