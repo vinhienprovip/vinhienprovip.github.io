@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.so1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.so1 img{
+    padding: 2px;
+    margin: 0px;
+    border: 0px;
+    transition: 1s;
+}
+.so1 img:hover{
+    transform: scale(1.5);
+}
