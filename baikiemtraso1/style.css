@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:plum;
+    margin: 10px auto;
+    max-width: 1020px;
+}
+
+h1{
+    color:white;
+    text-align:center;
+    height:100px;
+    width:100px;
+    font-size:none;
+}
+h2{
+    color: white
+}
+.container-home{
+    margin-top:20px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.container-home a img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+.header{
+    background-color:cornflowerblue;
+    padding: 10px;
+    height: 300px;
+    color: yellow;
+    border-radius: 10px;
+    position: relative;
+}
+.header .banner{
+    background: url("https://steamcdn-a.akamaihd.net/steam/apps/613880/header.jpg?t=1557763604");
+    height: 75%;
+    width: 90%;
+    border-radius: 50px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.detail-box{
+    display: flex;
+    border-top: 10px solid cornflowerblue;
+    justify-content: center;
+    align-items: center;
+}
+.box1 img{
+    width: 400px;
+    height: 300px;
+    margin-right: 10px;  
+    border-radius: 10px;
+}
+.box2{
+    background-color:plum;
+    border-radius: 10px;
+}
+.container-home a img:hover{
+    transform: scale(1.5);
+    transition: 0.2s;
+}
+button{
+    height: 50px;
+    border-radius: 20px;
+    background-color: cornflowerblue;
+    font-weight: bold;
+}
+footer{
+    margin-top:20px;
+    text-align: center;
+    padding: 20px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+}
+
+    
+
+
