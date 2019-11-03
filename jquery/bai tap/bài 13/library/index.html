@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>Click me!</p>
+    <div id="result"></div>
+    <script type="text/javascript" src="../library/jquery.js"></script>
+    <script>$("p").bind("click", function () {
+            $("<p>This is a click Event</p>").appendTo("#result");
+        });
+        $("p").bind("dblclick", function () {
+            $("<p>This is a double-click Event</p>").appendTo("#result");
+        });</script>
+</body>
+
+</html>

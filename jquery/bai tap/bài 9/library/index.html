@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <select id="myselect" >
+                <option>option-1</option>
+                <option selected=" selected">option-2</option>
+        <option>option-3</option>
+    </select>
+    <div style="color: blue"></div>
+    <script type="text/javascript" src="../library/jquery.js"></script>
+    <script>$("select")
+            .change(function () {
+                var str = "";
+                $("select option:selected").each(function () {
+                    str += $(this).text() + " ";
+                });
+                $("div").text(str);
+            })
+            .trigger("change");</script>
+</body>
+
+</html>
