@@ -1,5 +1,5 @@
 // bài 10
-$('input:radio[value=female]').prop("checked", true );;
+$('input:radio[value=female]').prop("checked", true );
 
 // bài 15
 $(".1" ).click(function() {
