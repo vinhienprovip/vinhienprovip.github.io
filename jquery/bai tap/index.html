@@ -9,21 +9,17 @@
 </head>
 
 <body>
-
-    <select name="" id="" onchange="getValue(this)">
-        <option value="1">Option-1</option>
-        <option value="2">Option-2</option>
-        <option value="3">Option-3</option>
-    </select>
-
+    <button class="test"> Click </button>
     <script type="text/javascript" src="../library/jquery.js"></script>
-    <script >
-    function getValue(event){
-        var value = $(event).val();
-        alert(value)
-    }
+    <script>
+        $(document).ready(function () {
+            console.log("nguyen vinh hien ")
+            $("body").css("background-color", "red")
+            $(".test").append('<span> here  </span>');
+        })
     </script>
-    
+
+
 
 </body>
 

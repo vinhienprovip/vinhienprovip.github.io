@@ -31,3 +31,29 @@ function changeFontSize(x){
     }
 }
 changeFontSize(30);
+
+//bai5
+function increaseFontSize(id){
+    var thePara=document.getElementById(id);
+    var getType=parseInt(window.getComputedStyle(thePara,null).getPropertyValue('font-size'))
+    if(getType>=30){
+        thePara.style.fontSize ="30px";
+        console.log("the font-size of this paragraph must not be less than 30px")
+    }
+    else{
+        thePara.style.fontSize = getType + 1 +'px'
+    }
+}
+
+//bai6
+function increaseFontSize(b){
+    var thePara=document.getElementById(b);
+    var getType=parseInt(window.getComputedStyle(thePara,null).getPropertyValue('font-size'))
+    if(getType<=10){
+        thePara.style.fontSize ="10px";
+        console.log("the font-size of this paragraph must not be less than 10px")
+    }
+    else{
+        thePara.style.fontSize = getType + 1 +'px'
+    }
+}
