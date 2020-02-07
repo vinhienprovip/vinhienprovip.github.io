@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/sanpham.css">
+    <link rel="stylesheet" href="fontawesome-free-5.12.0-web/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand logo" href="#">
+                <img class="img" src="logo-removebg-preview.png" alt="">
+            </a>
+            <div class="input">
+                <div><input class="input1" type="text"><i class="fas fa-search icon1"></i></div>
+
+            </div>
+        </nav>
+        <div class="nav1">
+            <nav class="nav nav-pills flex-column flex-sm-row">
+                <a class="flex-sm-fill text-sm-center nav-link writing" href="#">Sản phẩm</a>
+                <a class="flex-sm-fill text-sm-center nav-link writing" href="#">Tin tức</a>
+                <a class="flex-sm-fill text-sm-center nav-link writing" href="#">Tài khoản</a>
+            </nav>
+        </div>
+    </header>
+    <hr class="mt-5">
+    <div class="">
+        <i class="fas fa-bars icon4"></i>
+        <i class="fas fa-grip-horizontal icon3"></i>
+        <span class="sapxep"> Sắp xếp theo <input type="text" class="input21"> <span class="hiensanpham">Hiện sản phẩm
+                <input type="text" class="input21"></span> </span>
+    </div>
+    <hr>
+    <!-- <div class="container vi_du">
+        <div class="vi_du2">
+            <div class="vi_du3">
+                <div class="vi_du4">Bộ lọc tìm kiếm</div>
+            </div>
+            <div class="vi_du5">
+                <div class="nha_san_xuat">Nhà sản xuất</div>
+                <div class="vi_du6">
+                    <button class="button2 mt-3">Logitech</button>
+                    <button class="button3 mt-3">Newmen</button>
+                    <button class="button2 mt-3">Dareu</button>
+                    <button class="button3 mt-3">Corsair</button>
+                    <button class="button2 mt-3">Rapoo</button>
+                    <button class="button3 mt-3">Razer</button>
+                    <button class="button2 mt-3">FL ESports</button>
+                    <button class="button3 mt-3">Fuhlen</button>
+                    <button class="button2 mt-3">iRock</button>
+                    <button class="button3 mt-3">Kingston</button>
+                </div>
+            </div>
+            <div class="vi_du7">
+                <div class="mau_switch">Màu switch</div>
+                <div class="vi_du7">
+                    <button class="mau2 mt-3">Vàng</button>
+                    <button class="mau3 mt-3">Xanh</button>
+                    <button class="mau4 mt-3">Nâu</button>
+                    <button class="mau5 mt-3">Đen</button>
+                    <button class="mau6 mt-3">Cam</button>
+                    <button class="mau7 mt-3">Xanh</button>
+                    <button class="mau8 mt-3">Đỏ</button>
+                    <button class="mau9 mt-3">Bạc</button>
+                    <button class="mau10 mt-3">Trắng</button>
+                </div>
+            </div>
+        </div>
+        <div role="main" class="vi_du8">
+            <div class="vi_du9">
+                <div class="row vi_du10">
+                    <div class="col-xs-2-4 card_1">
+                        <div class="vi_du11"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- <div class="gia mt-5">
+        Giá
+        <div class="input3 mt-2"><input type="text"> <i class="fas fa-minus icon4"> </i><input type="text"></div>
+    </div>
+    <hr class="hr1">
+    <div class="thuonghieu">
+        Thương Hiệu
+        <div class="mt-3"><button class="button2">Logitech</button> <button class="button3">Newmen</button></div>
+        <div class="mt-3"><button class="button2">Dareu</button> <button class="button3">Corsair</button></div>
+        <div class="mt-3"><button class="button2">Rapoo</button> <button class="button3">Razer</button></div>
+        <div class="mt-3"><button class="button2">FL ESports</button> <button class="button3">Fuhlen</button></div>
+        <div class="mt-3"><button class="button2">iRock</button> <button class="button3">Kingston</button></div>
+        <div class="mt-3"><button class="button2">Zidli</button> <button class="button3">A4 Tech</button></div>
+        <div class="mt-3"><button class="button2">Asus</button> <button class="button3">Steelseries</button></div>
+    </div>
+    <hr class="hr1">
+    <div class="mau">
+        Màu switch
+        <div class="mt-3"><button class="mau2">Vàng</button> <button class="mau3">Xanh</button></div>
+        <div class="mt-3"><button class="mau4">Nâu</button> <button class="mau5">Đen</button></div>
+        <div class="mt-3"><button class="mau6">Cam</button> <button class="mau7">Xanh</button></div>
+        <div class="mt-3"><button class="mau6">Cam</button> <button class="mau7">Xanh</button></div>
+        <div class="mt-3"><button class="mau10">Trắng</button> </div>
+    </div>
+    
+
+    </div> -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="vi_du5">
+                    <div class="nha_san_xuat mt-4">NHÀ SẢN XUẤT</div>
+                    <div class="vi_du6">
+                        <button class="button2 mt-3">Logitech</button>
+                        <button class="button3 mt-3">Newmen</button>
+                        <button class="button2 mt-3">Dareu</button>
+                        <button class="button3 mt-3">Corsair</button>
+                        <button class="button2 mt-3">Rapoo</button>
+                        <button class="button3 mt-3">Razer</button>
+                        <button class="button2 mt-3">FL ESports</button>
+                        <button class="button3 mt-3">Fuhlen</button>
+                        <button class="button2 mt-3">iRock</button>
+                        <button class="button3 mt-3">Kingston</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-8">
+                <div class="row-mt4">
+                    <div class="row mt-3">
+                        <div class="product-group">
+                            <div class="row mt-3">
+                                <div class="col-md-4 col-sm-8 col-12">
+                                    <div class="card mb-3 card-product">
+                                        <img src="https://gloimg.gbtcdn.com/soa/gb/pdm-product-pic/Electronic/2019/06/14/goods_img_big-v1/20190614111638_98734.jpg"
+                                            class="card-img-top" alt="card image cap">
+                                        <div class="card-body card1">
+                                            <h5 class="card-title">Bàn phím </h5>
+                                            <div class="card-text product-price">
+                                                <span class="del-price">1.000.000đ</span>
+                                            </div>
+                                            <div>
+                                                <button class="xemthem mt-3">Xem chi tiết </button>
+                                                <button class="icon2"><i class="fas fa-shopping-cart"></i></button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-8 col-12">
+                                    <div class="card mb-3 card-product">
+                                        <img src="https://gloimg.gbtcdn.com/soa/gb/pdm-product-pic/Electronic/2019/06/14/goods_img_big-v1/20190614111638_98734.jpg"
+                                            class="card-img-top" alt="card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Bàn phím </h5>
+                                            <div class="card-text product-price">
+                                                <span>1.000.000đ</span>
+                                            </div>
+                                            <div>
+                                                <button class="xemthem mt-3">Xem chi tiết </button>
+                                                <button class="icon2"><i class="fas fa-shopping-cart"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-8 col-12">
+                                    <div class="card mb-3 card-product">
+                                        <img src="https://gloimg.gbtcdn.com/soa/gb/pdm-product-pic/Electronic/2019/06/14/goods_img_big-v1/20190614111638_98734.jpg"
+                                            class="card-img-top" alt="card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Bàn phím </h5>
+                                            <div class="card-text product-price">
+                                                <span>1.000.000đ</span>
+                                            </div>
+                                            <div>
+                                                <button class="xemthem mt-3">Xem chi tiết </button>
+                                                <button class="icon2"><i class="fas fa-shopping-cart"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-8 col-12">
+                                    <div class="card mb-3 card-product">
+                                        <img src="https://gloimg.gbtcdn.com/soa/gb/pdm-product-pic/Electronic/2019/06/14/goods_img_big-v1/20190614111638_98734.jpg"
+                                            class="card-img-top" alt="card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Bàn phím </h5>
+                                            <div class="card-text product-price">
+                                                <span>1.000.000đ</span>
+                                            </div>
+                                            <div>
+                                                <button class="xemthem mt-3">Xem chi tiết </button>
+                                                <button class="icon2"><i class="fas fa-shopping-cart"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-8 col-12">
+                                    <div class="card mb-3 card-product">
+                                        <img src="https://gloimg.gbtcdn.com/soa/gb/pdm-product-pic/Electronic/2019/06/14/goods_img_big-v1/20190614111638_98734.jpg"
+                                            class="card-img-top" alt="card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Bàn phím </h5>
+                                            <div class="card-text product-price">
+                                                <span>1.000.000đ</span>
+                                            </div>
+                                            <div>
+                                                <button class="xemthem mt-3">Xem chi tiết </button>
+                                                <button class="icon2"><i class="fas fa-shopping-cart"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-8 col-12">
+                                    <div class="card mb-3 card-product">
+                                        <img src="https://gloimg.gbtcdn.com/soa/gb/pdm-product-pic/Electronic/2019/06/14/goods_img_big-v1/20190614111638_98734.jpg"
+                                            class="card-img-top" alt="card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Bàn phím </h5>
+                                            <div class="card-text product-price">
+                                                <span>1.000.000đ</span>
+                                            </div>
+                                            <div>
+                                                <button class="xemthem mt-3">Xem chi tiết </button>
+                                                <button class="icon2"><i class="fas fa-shopping-cart"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-8 col-12">
+                                    <div class="card mb-3 card-product">
+                                        <img src="https://gloimg.gbtcdn.com/soa/gb/pdm-product-pic/Electronic/2019/06/14/goods_img_big-v1/20190614111638_98734.jpg"
+                                            class="card-img-top" alt="card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Bàn phím </h5>
+                                            <div class="card-text product-price">
+                                                <span>1.000.000đ</span>
+                                            </div>
+                                            <div>
+                                                <button class="xemthem mt-3">Xem chi tiết </button>
+                                                <button class="icon2"><i class="fas fa-shopping-cart"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-8 col-12">
+                                    <div class="card mb-3 card-product">
+                                        <img src="https://gloimg.gbtcdn.com/soa/gb/pdm-product-pic/Electronic/2019/06/14/goods_img_big-v1/20190614111638_98734.jpg"
+                                            class="card-img-top" alt="card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Bàn phím </h5>
+                                            <div class="card-text product-price">
+                                                <span>1.000.000đ</span>
+                                            </div>
+                                            <div>
+                                                <button class="xemthem mt-3">Xem chi tiết </button>
+                                                <button class="icon2"><i class="fas fa-shopping-cart"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-8 col-12">
+                                    <div class="card mb-3 card-product">
+                                        <img src="https://gloimg.gbtcdn.com/soa/gb/pdm-product-pic/Electronic/2019/06/14/goods_img_big-v1/20190614111638_98734.jpg"
+                                            class="card-img-top" alt="card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Bàn phím </h5>
+                                            <div class="card-text product-price">
+                                                <span>1.000.000đ</span>
+                                            </div>
+                                            <div>
+                                                <button class="xemthem mt-3">Xem chi tiết </button>
+                                                <button class="icon2"><i class="fas fa-shopping-cart"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-8 col-12">
+                                    <div class="card mb-3 card-product">
+                                        <img src="https://gloimg.gbtcdn.com/soa/gb/pdm-product-pic/Electronic/2019/06/14/goods_img_big-v1/20190614111638_98734.jpg"
+                                            class="card-img-top" alt="card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Bàn phím </h5>
+                                            <div class="card-text product-price">
+                                                <span>1.000.000đ</span>
+                                            </div>
+                                            <div>
+                                                <button class="xemthem mt-3">Xem chi tiết </button>
+                                                <button class="icon2"><i class="fas fa-shopping-cart"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-8 col-12">
+                                    <div class="card mb-3 card-product">
+                                        <img src="https://gloimg.gbtcdn.com/soa/gb/pdm-product-pic/Electronic/2019/06/14/goods_img_big-v1/20190614111638_98734.jpg"
+                                            class="card-img-top" alt="card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Bàn phím </h5>
+                                            <div class="card-text product-price">
+                                                <span>1.000.000đ</span>
+                                            </div>
+                                            <div>
+                                                <button class="xemthem mt-3">Xem chi tiết </button>
+                                                <button class="icon2"><i class="fas fa-shopping-cart"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-8 col-12">
+                                    <div class="card mb-3 card-product">
+                                        <img src="https://gloimg.gbtcdn.com/soa/gb/pdm-product-pic/Electronic/2019/06/14/goods_img_big-v1/20190614111638_98734.jpg"
+                                            class="card-img-top" alt="card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Bàn phím </h5>
+                                            <div class="card-text product-price">
+                                                <span>1.000.000đ</span>
+                                            </div>
+                                            <div>
+                                                <button class="xemthem mt-3">Xem chi tiết </button>
+                                                <button class="icon2"><i class="fas fa-shopping-cart"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-8 col-12">
+                                    <div class="card mb-3 card-product">
+                                        <img src="https://gloimg.gbtcdn.com/soa/gb/pdm-product-pic/Electronic/2019/06/14/goods_img_big-v1/20190614111638_98734.jpg"
+                                            class="card-img-top" alt="card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Bàn phím </h5>
+                                            <div class="card-text product-price">
+                                                <span>1.000.000đ</span>
+                                            </div>
+                                            <div>
+                                                <button class="xemthem mt-3">Xem chi tiết </button>
+                                                <button class="icon2"><i class="fas fa-shopping-cart"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-8 col-12">
+                                    <div class="card mb-3 card-product">
+                                        <img src="https://gloimg.gbtcdn.com/soa/gb/pdm-product-pic/Electronic/2019/06/14/goods_img_big-v1/20190614111638_98734.jpg"
+                                            class="card-img-top" alt="card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Bàn phím </h5>
+                                            <div class="card-text product-price">
+                                                <span>1.000.000đ</span>
+                                            </div>
+                                            <div>
+                                                <button class="xemthem mt-3">Xem chi tiết </button>
+                                                <button class="icon2"><i class="fas fa-shopping-cart"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-8 col-12">
+                                    <div class="card mb-3 card-product">
+                                        <img src="https://gloimg.gbtcdn.com/soa/gb/pdm-product-pic/Electronic/2019/06/14/goods_img_big-v1/20190614111638_98734.jpg"
+                                            class="card-img-top" alt="card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Bàn phím </h5>
+                                            <div class="card-text product-price">
+                                                <span>1.000.000đ</span>
+                                            </div>
+                                            <div>
+                                                <button class="xemthem mt-3">Xem chi tiết </button>
+                                                <button class="icon2"><i class="fas fa-shopping-cart"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div>
+        <hr class="hr1">
+        <span class="span1">Trang 1 trên 10</span>
+        <span><i class="far fa-circle tron1"></i></span>
+        <span><i class="far fa-circle tron2"></i></span>
+        <span><i class="far fa-circle tron3"></i></span>
+        <span><i class="far fa-circle tron4"></i></span>
+        <span><i class="far fa-circle tron5"></i></span>
+        <span><i class="fas fa-arrow-right muiten1"></i></span>
+        <hr class="hr2">
+    </div>
+    <footer>
+        <hr class="mt-5">
+        <!-- <div class="footer mt-5">
+        <img src="logo-removebg-preview.png" alt="">
+        <p class="lienhe mt-5">Liên hệ</p>
+        <div><img src="call.png" alt=""></div>
+        <p class="sdt">12345678910</p>
+        <p class="cauhoi mt-">Câu hỏi?</p>
+        <i class="fab fa-facebook face"></i>
+        <i class="fab fa-youtube ytb"></i>
+        <i class="fab fa-twitter-square twt"></i>
+    </div> -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="widget-ft widget-about">
+                        <div class="mt-5">
+                            <img src="logo-removebg-preview.png" alt="">
+                        </div>
+                        <div class="call mt-5">
+                            <div class="lamthu">
+                                <img src="call.png" alt="">
+                            </div>
+                            <div class="lamthu1">
+                                <p class="cauhoi">Câu hỏi ?</p>
+                                <p class="sdt">123456789</p>
+                                <p class="lienhe">Liên hệ</p>
+                                <i class="fab fa-facebook face"></i>
+                                <i class="fab fa-youtube ytb"></i>
+                                <i class="fab fa-twitter-square twt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="widget-ft widget-about">
+                        <div class="mt-5 ">
+                            <h3 class="text1">Thông tin về chúng tôi</h3>
+                            <div class="text11">
+                                <p>Chính sách bảo mật</p>
+                                <p>Liên hệ với chúng tôi</p>
+                                <p>Tìm kiếm nâng cao</p>
+                                <p>Sơ đồ web</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="widget-ft widget-about">
+                        <div class="mt-5">
+                            <h3 class="text2">Tài khoản của tôi</h3>
+                            <div class="text11">
+                                <p>Tài khoản</p>
+                                <p>Lịch sử đơn hàng</p>
+                                <p>Danh sách đơn hàng</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="widget-ft widget-about">
+                        <div class="mt-5">
+                            <h3 class="text3">Đăng ký nhận bảng tin</h3>
+                            <div class="text11">
+                                <p>Nhập địa chỉ gmail của bạn để nhận tin tức</p>
+                                <input type="text" class="input2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</html>

@@ -1,0 +1,194 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.writing{
+    color: white;
+}
+.nav1{
+    background-color: #F44848;
+    color: white;
+}
+.input{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    /* display: flex;
+    text-align: center; */
+}
+.input1{
+    width: 500px;
+    height: 30px;
+    /* border-radius:50px; */
+    margin-right: 670px;
+}
+.img{
+    height: 60px;
+    width: 200px;
+}
+.logo{
+    margin-left: auto;
+}
+.icon1{
+    font-size: 25px;
+    color: #F44848;
+    margin-left: auto;
+}
+.icon-right{
+    font-size: 25px;
+    margin-left: auto;
+}
+.button1{
+    background-color: #F44848;
+    color: white;
+    border-radius: 20px;
+    margin-left: auto;
+    width: 150px;
+}
+.icon2{
+    font-size: 20px;
+    color: white;
+    background-color: #F44848;
+    height: 43px;
+    width: 50px;
+    border-radius: 10px;
+}
+.xemthem{
+    background-color: #F44848;
+    color: white;
+    font-size: 20px;
+    width: 120px;
+    height: 43px;
+    border-radius: 10px;
+}
+.img1{
+    margin-left: 655px;
+    margin-top: -300px;
+}
+.word{
+    color: gray;
+}
+.price{
+    color: #F44848;
+}
+.xemthem2{
+    background-color: #F44848;
+    color: white;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px
+}
+.div1{
+    background-color: #f2f2f2;
+}
+.icon3{
+    font-size: 40px;
+    margin-left: 100px;
+    color: #F44848;
+}
+.icon4{
+    font-size: 40px;
+    margin-left: 155px;
+    color: #F44848;
+}
+.icon5{
+    font-size: 40px;
+    margin-left: 205px;
+    color: #F44848;
+}
+.icon6{
+    font-size: 40px;
+    margin-left: 245px;
+    color: #F44848;
+}
+/* .footer{
+    margin-left: 380px;
+}
+.cauhoi{
+    margin-left: 78px;
+    color: gray;
+}
+.sdt{
+    margin-left: 73px;
+    font-size: 22px;
+
+}
+.lienhe{
+    margin-left: 75px;
+    color: gray;
+}
+.face{
+    margin-left: 80px;
+}
+.ytb{
+    margin-left: 30px;
+}
+.twt{
+    margin-left: 30px;
+}
+.phone1{
+    font-size: 50px;
+} */
+footer
+.lamthu{
+    float: left;
+    margin-right: 16px;
+    margin-top: 27px;
+}
+.cauhoi{
+    color: gray;
+    line-height: 36px;
+}
+.sdt{
+    font-size: 18px;
+    font-weight: 700;
+    color: #484848;
+    margin-right: -30px;
+    margin-bottom: 9px;
+}
+.lienhe{
+    line-height: 18px;
+    color: #919191;
+    margin-left: 65px;
+}
+.face{
+    margin-left: 65px;
+    color: gray;
+}
+.ytb{
+    margin-left: 30px;
+    color: gray;
+}
+.twt{
+    margin-left: 30px;
+    color: gray;
+}
+.text1{
+    font-weight: 500;
+    margin-top: 8px;
+    margin-bottom: 24px;
+    margin-left: -1px;
+}
+.text2{
+    margin-bottom: 55px;
+}
+.text3{
+    margin-bottom: 18px;
+    
+}
+.input2{
+    width: 250px;
+    border-radius: 20px;
+}
+.text11{
+    color: gray;
+}
+
+
+
+
+
+
+
+
+

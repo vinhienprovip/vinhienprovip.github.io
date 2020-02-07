@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-radius: 0 !important;
+}
+.img{
+    width: 100%;
+    height: 700px;
+}
+.product-tittle{
+    width: 100%;
+    text-transform: uppercase;
+
+}
+.product-subtittle{
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.card-product{
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    overflow: hidden;
+    position: relative;
+    background-color: black;
+    color: blanchedalmond;
+}
+.product-tittle1{
+    margin-bottom: 0.25rem;
+}
+.product-price{
+    position: relative;
+}
+.del-price{
+    text-decoration: line-through;
+    color: blanchedalmond;
+}
+.new-price{
+    color: blanchedalmond;
+    position: absolute;
+    top: 0;
+    right: 0.5rem;
+}
+.sale-sticky{
+    color: white;
+    background-color:orange;
+    display: block;
+    text-align: center;
+    width: 120px;
+    position: absolute;
+    top: 11px;
+    right: -39px;
+    transform: rotate(45deg);
+}
+.button-group{
+    margin-left: 43%;
+}
+.guide{
+    margin-left: 20%;
+    margin-right: 19%;
+}
+.img-cc{
+    width: 100%;
+    height: 600px;
+}
+.cc{
+       margin-left: 35%; 
+}
+.img-khuyen-mai{
+           margin-left: 20%; 
+           width: 1145px;
+}
+footer{
+    margin-top:20px;
+    text-align: center;
+    padding: 20px;
+    background-color: gray;
+    border-radius: 10px;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+
+

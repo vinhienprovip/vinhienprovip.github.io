@@ -1,0 +1,212 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.writing{
+    color: white;
+}
+.nav1{
+    background-color: #F44848;
+    color: white;
+}
+.input{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    /* display: flex;
+    text-align: center; */
+}
+.input1{
+    width: 500px;
+    height: 30px;
+    /* border-radius:50px; */
+    margin-right: 670px;
+}
+.img{
+    height: 60px;
+    width: 200px;
+}
+.logo{
+    margin-left: auto;
+}
+.icon1{
+    font-size: 25px;
+    color: #F44848;
+    margin-left: auto;
+}
+.icon-right{
+    font-size: 25px;
+    margin-left: auto;
+}
+.ten_san_pham{
+    margin-top: 161px;
+}
+.star{
+    color: orange;
+    
+}
+.chitiet_gia{
+    color: #F44848;
+    margin-top: 20px;
+}
+.chitiet_mpvc{
+    color: #F44848;
+}
+.chitiet_chitiet{
+    margin-top: 20px;
+    color: #F44848;
+}
+.chitiet_ma{
+    margin-top: 20px;
+    font-weight: bold;
+}
+.chitiet_switches{
+    margin-top: 20px;
+    font-weight: bold;
+}
+.chitiet_input1{
+    border-radius: 20px;
+    width: 245px;
+    margin-left: 95px;
+}
+.chitiet_giamgia{
+    margin-top: 20px;
+    font-weight: bold;
+}
+.chitiet_input2{
+    width: 245px;
+    margin-left: 50px;
+}
+.chitiet_soluong{
+    font-weight: bold;
+    margin-top: 20px;
+}
+.chitiet_input3{
+    width: 50px;
+    margin-right: 10px;
+}
+.chitiet_minus{
+    margin-left: 18px;
+    margin-right: 10px;
+}
+.chitiet_button1{
+    background-color: #F44848;
+    color: white;
+    font-size: 20px;
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.chitiet_giohang{
+    margin-right: 10px;
+}
+.chitiet_heart{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.chitiet_img3{
+    width: 150px;
+    height: 100px;
+    margin-top: 5px;
+    margin-left: 7px;
+}
+.chitiet_img2{
+    width: 150px;
+    height: 100px;
+    margin-left: 7px;
+}
+.chitiet_thongtin{
+    font-weight: bold;
+    margin-top: 50px;
+}
+.chitiet_p2{
+    font-weight: bold;
+    margin-top: 115px;
+    font-size: 20px;
+}
+.chitiet_p{
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.chitiet_lienqua{
+    margin-top: 50px;
+}
+.button1{
+    background-color: #F44848;
+    color: white;
+    border-radius: 20px;
+    margin-left: auto;
+    width: 150px;
+}
+.icon2{
+    font-size: 20px;
+    color: white;
+    background-color: #F44848;
+    height: 43px;
+    width: 50px;
+    border-radius: 10px;
+}
+.xemthem{
+    background-color: #F44848;
+    color: white;
+    font-size: 20px;
+    width: 120px;
+    height: 43px;
+    border-radius: 10px;
+}
+footer
+.lamthu{
+    float: left;
+    margin-right: 16px;
+    margin-top: 27px;
+}
+
+.cauhoi{
+    color: gray;
+    line-height: 36px;
+}
+.sdt{
+    font-size: 18px;
+    font-weight: 700;
+    color: #484848;
+    margin-right: -30px;
+    margin-bottom: 9px;
+}
+.lienhe{
+    line-height: 18px;
+    color: #919191;
+    margin-left: 65px;
+}
+.face{
+    margin-left: 65px;
+    color: gray;
+}
+.ytb{
+    margin-left: 30px;
+    color: gray;
+}
+.twt{
+    margin-left: 30px;
+    color: gray;
+}
+.text1{
+    font-weight: 500;
+    margin-top: 8px;
+    margin-bottom: 24px;
+    margin-left: -1px;
+}
+.text2{
+    margin-bottom: 55px;
+}
+.text3{
+    margin-bottom: 18px;
+    
+}
+.input2{
+    width: 250px;
+    border-radius: 20px;
+}
+.text11{
+    color: gray;
+}
